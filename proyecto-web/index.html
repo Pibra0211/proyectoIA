@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DGE Studios | Videos publicitarios con Inteligencia Artificial</title>
+  <meta name="description" content="DGE Studios crea videos publicitarios con IA para glampings, constructoras y anfitriones de Airbnb. Solicita tu cotización.">
+
+  <!-- Fuentes de Google: Playfair Display (títulos) y Poppins (texto) -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;700&family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- Enlace para saltar la navegación (accesibilidad con teclado) -->
+  <a class="skip-link" href="#contenido">Saltar al contenido</a>
+
+  <!-- ================= HEADER Y NAVEGACIÓN ================= -->
+  <header class="site-header">
+    <div class="container header__inner">
+      <a href="#inicio" class="logo" aria-label="DGE Studios, ir al inicio">DGE <span>Studios</span></a>
+
+      <!-- Botón hamburguesa (visible solo en móvil) -->
+      <button class="nav-toggle" id="navToggle" type="button"
+              aria-label="Abrir menú de navegación"
+              aria-expanded="false"
+              aria-controls="menuPrincipal">
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+        <span class="nav-toggle__bar"></span>
+      </button>
+
+      <nav class="nav" id="menuPrincipal" aria-label="Navegación principal">
+        <ul class="nav__list">
+          <li><a href="#inicio">Inicio</a></li>
+          <li><a href="#servicios">Servicios</a></li>
+          <li><a href="#galeria">Galería</a></li>
+          <li><a href="#precios">Precios</a></li>
+          <li><a href="#contacto" class="btn btn--small">Cotizar</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main id="contenido">
+
+    <!-- ================= HERO ================= -->
+    <section class="hero" id="inicio" aria-labelledby="hero-titulo">
+      <div class="container hero__content">
+        <p class="eyebrow">Videos publicitarios con Inteligencia Artificial</p>
+        <h1 id="hero-titulo">Videos que enamoran a tus huéspedes y clientes</h1>
+        <p class="hero__text">
+          Creamos videos cinematográficos para glampings, constructoras y anfitriones de Airbnb.
+          Más rápidos y más económicos que una producción tradicional.
+        </p>
+        <div class="hero__actions">
+          <a href="#contacto" class="btn">Cotizar mi video</a>
+          <a href="#galeria" class="btn btn--ghost">Ver ejemplos</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= SERVICIOS ================= -->
+    <!-- Patrón: título + texto introductorio + 3 tarjetas (icono, título, descripción, botón) -->
+    <section class="section" id="servicios" aria-labelledby="servicios-titulo">
+      <div class="container">
+        <h2 id="servicios-titulo" class="section__title">Servicios que dan vida a tu marca</h2>
+        <p class="section__intro">Elegimos el estilo de video ideal para cada tipo de negocio.</p>
+
+        <div class="grid grid--services">
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">⛺</div>
+            <h3>Glampings</h3>
+            <p>Muestra la magia de tu domo antes de que el huésped llegue. Videos que transmiten calma, naturaleza y lujo.</p>
+            <a href="#contacto" class="btn btn--ghost" aria-label="Cotizar video para glampings">Cotizar</a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🏗️</div>
+            <h3>Constructoras</h3>
+            <p>Presenta tus proyectos como ya terminados. Recorridos visuales que generan confianza y aceleran la venta.</p>
+            <a href="#contacto" class="btn btn--ghost" aria-label="Cotizar video para constructoras">Cotizar</a>
+          </article>
+
+          <article class="card">
+            <div class="card__icon" aria-hidden="true">🏡</div>
+            <h3>Anfitriones de Airbnb</h3>
+            <p>Destaca tu alojamiento entre cientos. Videos atractivos que aumentan tus reservas.</p>
+            <a href="#contacto" class="btn btn--ghost" aria-label="Cotizar video para anfitriones de Airbnb">Cotizar</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= GALERÍA ================= -->
+    <section class="section section--alt" id="galeria" aria-labelledby="galeria-titulo">
+      <div class="container">
+        <h2 id="galeria-titulo" class="section__title">Un vistazo a lo que podemos crear para ti</h2>
+        <p class="section__intro">Imágenes de ejemplo de nuestros estilos de video.</p>
+
+        <div class="grid grid--gallery">
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Glamping+al+atardecer" alt="Domo de glamping al atardecer rodeado de naturaleza" loading="lazy" width="600" height="400">
+            <figcaption>Glamping al atardecer</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Recorrido+de+obra" alt="Recorrido virtual de un proyecto de construcción terminado" loading="lazy" width="600" height="400">
+            <figcaption>Recorrido de obra</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Apartamento+Airbnb" alt="Interior de un apartamento listo para Airbnb" loading="lazy" width="600" height="400">
+            <figcaption>Apartamento Airbnb</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Vista+aerea" alt="Vista aérea de un proyecto turístico en la montaña" loading="lazy" width="600" height="400">
+            <figcaption>Vista aérea</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Experiencia+nocturna" alt="Experiencia nocturna en un glamping con luces cálidas" loading="lazy" width="600" height="400">
+            <figcaption>Experiencia nocturna</figcaption>
+          </figure>
+          <figure class="gallery__item">
+            <img src="https://placehold.co/600x400/1c1c21/c9a24b?text=Spot+publicitario" alt="Fotograma de un spot publicitario para hospitalidad" loading="lazy" width="600" height="400">
+            <figcaption>Spot publicitario</figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= PRECIOS ================= -->
+    <section class="section" id="precios" aria-labelledby="precios-titulo">
+      <div class="container">
+        <h2 id="precios-titulo" class="section__title">Planes a la medida de tu negocio</h2>
+        <p class="section__intro">Precios de referencia en pesos colombianos. Cotizamos según tu proyecto.</p>
+
+        <div class="grid grid--pricing">
+          <article class="card plan">
+            <h3>Esencial</h3>
+            <p class="plan__price">$490.000 <span>COP</span></p>
+            <ul class="plan__list">
+              <li>1 video de 15 segundos</li>
+              <li>Formato vertical para redes</li>
+              <li>1 revisión incluida</li>
+              <li>Entrega en 5 días</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost">Elegir Esencial</a>
+          </article>
+
+          <article class="card plan plan--featured">
+            <span class="plan__badge">Más elegido</span>
+            <h3>Profesional</h3>
+            <p class="plan__price">$990.000 <span>COP</span></p>
+            <ul class="plan__list">
+              <li>2 videos de 30 segundos</li>
+              <li>Formatos vertical y horizontal</li>
+              <li>Música y voz en off</li>
+              <li>3 revisiones incluidas</li>
+              <li>Entrega en 7 días</li>
+            </ul>
+            <a href="#contacto" class="btn">Elegir Profesional</a>
+          </article>
+
+          <article class="card plan">
+            <h3>Premium</h3>
+            <p class="plan__price">$1.890.000 <span>COP</span></p>
+            <ul class="plan__list">
+              <li>4 videos de hasta 60 segundos</li>
+              <li>Guion y dirección creativa</li>
+              <li>Todos los formatos</li>
+              <li>Revisiones ilimitadas</li>
+              <li>Entrega en 10 días</li>
+            </ul>
+            <a href="#contacto" class="btn btn--ghost">Elegir Premium</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ================= CONTACTO ================= -->
+    <section class="section section--alt" id="contacto" aria-labelledby="contacto-titulo">
+      <div class="container contact">
+        <h2 id="contacto-titulo" class="section__title">Cuéntanos tu idea y la convertimos en video</h2>
+        <p class="section__intro">Completa el formulario y te responderemos pronto.</p>
+
+        <form id="formContacto" class="form" novalidate>
+          <div class="form__group">
+            <label for="nombre">Nombre completo</label>
+            <input type="text" id="nombre" name="nombre" autocomplete="name" aria-describedby="error-nombre" required>
+            <span class="form__error" id="error-nombre" aria-live="polite"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="correo">Correo electrónico</label>
+            <input type="email" id="correo" name="correo" autocomplete="email" aria-describedby="error-correo" required>
+            <span class="form__error" id="error-correo" aria-live="polite"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="telefono">Teléfono</label>
+            <input type="tel" id="telefono" name="telefono" autocomplete="tel" aria-describedby="error-telefono" required>
+            <span class="form__error" id="error-telefono" aria-live="polite"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="negocio">Tipo de negocio</label>
+            <select id="negocio" name="negocio" aria-describedby="error-negocio" required>
+              <option value="">Selecciona una opción</option>
+              <option value="glamping">Glamping</option>
+              <option value="constructora">Empresa constructora</option>
+              <option value="airbnb">Anfitrión de Airbnb</option>
+              <option value="otro">Otro</option>
+            </select>
+            <span class="form__error" id="error-negocio" aria-live="polite"></span>
+          </div>
+
+          <div class="form__group">
+            <label for="mensaje">Mensaje</label>
+            <textarea id="mensaje" name="mensaje" rows="5" aria-describedby="error-mensaje" required></textarea>
+            <span class="form__error" id="error-mensaje" aria-live="polite"></span>
+          </div>
+
+          <button type="submit" class="btn">Enviar solicitud</button>
+          <p class="form__success" id="mensajeExito" role="status" hidden>
+            ¡Gracias! Recibimos tu solicitud y te contactaremos muy pronto.
+          </p>
+        </form>
+      </div>
+    </section>
+
+  </main>
+
+  <!-- ================= FOOTER ================= -->
+  <footer class="site-footer">
+    <div class="container footer__inner">
+      <p class="logo logo--footer">DGE <span>Studios</span></p>
+      <p>Videos publicitarios con Inteligencia Artificial</p>
+      <ul class="footer__links">
+        <li><a href="#servicios">Servicios</a></li>
+        <li><a href="#galeria">Galería</a></li>
+        <li><a href="#precios">Precios</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+      <p class="footer__copy">&copy; <span id="year">2026</span> DGE Studios. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script src="app.js"></script>
+</body>
+</html>
